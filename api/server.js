@@ -13,6 +13,6 @@ server.use(express.json());
 server.use(cors());
 
 server.use('/api/users', userRouter);
-server.use('/api/auth', authorizationRouter);
+server.use('/api/', authorizationRouter);
 
 module.exports = server;
