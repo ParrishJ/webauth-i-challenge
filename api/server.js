@@ -18,7 +18,7 @@ const sessionConfig = {
     cookie: {
         maxage: 1000 * 60 * 15,
         secure: false,
-        httpOnly: true,
+        httpOnly: true
     },
     store: new KnexSessionStore({
         knex: require('../data/dbConfig.js'),
